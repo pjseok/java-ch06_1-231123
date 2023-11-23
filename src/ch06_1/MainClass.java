@@ -15,7 +15,10 @@ public class MainClass {
 		stu2.name = "김유신";
 		stu2.age = 20;
 		
-		
+		Car car1 = new Car();
+		System.out.println(car1.speed); // 0
+		car1.printSpeed();              // 10
+		System.out.println(car1.speed); // 10
 		
 	}
 
